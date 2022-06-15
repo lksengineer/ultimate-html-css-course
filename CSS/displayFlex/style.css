@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+main {
+    border: 1rem solid black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+main .box {
+    width: 10rem;
+    height: 10rem;
+    margin: 5px 0px;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+
+main .box1 {
+    background-color: blue;
+}
+main .box2 {
+    background-color: red;
+}
+main .box3 {
+    background-color: peru;
+}
+main .box4 {
+    background-color: plum;
+}

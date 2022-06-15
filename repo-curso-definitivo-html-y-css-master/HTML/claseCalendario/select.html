@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select</title>
+  </head>
+  <body>
+    <main>
+      <form action="">
+        
+        <!-- <select name="cursos" id="">
+          <option value="JavaScript">JavaScript</option>
+          <option value="HTML5">HTML5</option>
+        <option value="CSS3">CSS3</option>
+        <option value="Web Standards">Web Standards</option>
+      </select> -->
+      <!-- <label for="">
+        hola
+        <input type="text" required>
+      </label> -->
+      <!-- etiqueta select trabajada como buenas práctica  -->
+        <input list="cursos" placeholder="Cursos" required/>
+        <datalist id="cursos">
+          <option value="JavaScript"></option>
+          <option value="HTML5"></option>
+          <option value="CSS3"></option>
+          <option value="Web Standards"></option>
+        </datalist>
+
+        <input list="fruits" placeholder="Fruits" required>
+        <datalist id="fruits">
+          <option value="Apple"></option>
+          <option value="Banana"></option>
+          <option value="Orange"></option>
+          <option value="Strawberry"></option>       
+        </datalist>
+        <input type="submit">
+      </form>
+    </main>
+  </body>
+</html>
